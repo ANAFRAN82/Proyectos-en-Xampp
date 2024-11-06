@@ -1,0 +1,70 @@
+/* Selector Universal: afecta todas las etiquetas */
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; /* Hace que el tamaño de caja se ajuste correctamente */
+}
+
+/* Selector de etiqueta: afecta a la etiqueta especificada de HTML */
+body {
+    background: linear-gradient(135deg, #FFD54F, #FF6B6B); /* Establece un fondo de degradado en ángulo para el cuerpo */
+    font-family: 'Caveat', cursive; /* Cambia la fuente a 'Caveat' para todo el cuerpo */
+    text-align: center; /* Centra el contenido del cuerpo */
+    color: #fff; /* Establece el color del texto en blanco */
+    padding: 20px; /* Agrega espacio de relleno alrededor del contenido del cuerpo */
+}
+
+.content-form {
+    width: 80%; /* Establece el ancho del contenedor al 80% del ancho disponible */
+    max-width: 600px; /* Establece el ancho máximo del contenedor en 600px */
+    margin: 50px auto; /* Centra el contenedor horizontalmente con un margen superior de 50px */
+    padding: 20px; /* Agrega espacio de relleno alrededor del contenedor */
+    background: rgba(255, 152, 0, 0.8); /* Establece un fondo con un color naranja semi-transparente */
+    border-radius: 10px; /* Agrega esquinas redondeadas al contenedor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Agrega una sombra alrededor del contenedor */
+}
+
+h1 {
+    font-family: 'Pacifico', cursive; /* Cambia la fuente a 'Pacifico' para el encabezado */
+    font-size: 36px; /* Aumenta el tamaño de fuente a 36px */
+    margin-bottom: 20px; /* Agrega espacio en la parte inferior del encabezado */
+}
+
+form {
+    text-align: center; /* Centra el contenido del formulario */
+}
+
+select, input, button {
+    display: block; /* Hace que los elementos select, input y button se muestren uno debajo del otro */
+    margin: 10px auto; /* Agrega margen superior e inferior de 10px y centra los elementos horizontalmente */
+    width: 100%; /* Ajusta el ancho de los elementos al 100% del contenedor */
+    padding: 10px; /* Agrega espacio de relleno en los elementos */
+    border: 2px solid #FF8E4D; /* Cambia el color del borde a un tono más claro */
+    border-radius: 5px; /* Agrega esquinas redondeadas a los elementos */
+    font-size: 18px; /* Establece el tamaño de fuente a 18px */
+}
+
+button {
+    background: #FF6D00; /* Establece el color de fondo del botón */
+    color: #FFF; /* Establece el color del texto en blanco */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background 0.3s; /* Agrega una transición suave al color de fondo del botón */
+}
+
+button:hover {
+    background: #FF8E4D; /* Cambia el color de fondo del botón a un tono más claro al pasar el cursor */
+}
+
+a {
+    display: block; /* Hace que los elementos de anclaje se muestren como bloques */
+    text-align: center; /* Centra el contenido de los elementos de anclaje */
+    margin-top: 20px; /* Agrega margen superior de 20px */
+    text-decoration: none; /* Elimina la decoración de enlace (subrayado) */
+    color: #FFF; /* Establece el color de texto para los enlaces */
+    font-size: 20px; /* Establece el tamaño de fuente en 20px */
+}
+
+a:hover {
+    color: #FFD180; /* Cambia el color del enlace a un tono más claro al pasar el cursor */
+}
+

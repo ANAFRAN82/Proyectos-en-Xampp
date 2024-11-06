@@ -1,0 +1,57 @@
+/* Selector Universal: afecta todas las etiquetas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de etiqueta: afecta a la etiqueta especificada de HTML */
+body {
+    background: linear-gradient(135deg, #FFD54F, #FF6B6B);
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 152, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FF8E4D;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    background: #FF6D00;
+    color: #FFF;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #FF8E4D;
+}
